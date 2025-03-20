@@ -726,3 +726,14 @@ span {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+a img {
+    position: flex;
+    bottom:20px;
+    right:20px;
+    border-radius:50%;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+a img:hover {
+    transform: scale(1.1);
+}
